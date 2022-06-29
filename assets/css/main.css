@@ -1659,3 +1659,139 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+
+		/* Added css */
+
+		/* #project-github{
+			color: #ffffff;
+			display: block;
+			font-size: 0.8rem;
+			font-weight: 300;
+			letter-spacing: 0.2rem;
+			line-height: 1.5;
+			margin: 0 0 1rem 0;
+			text-transform: uppercase;
+		} */
+
+		.project-info-bio{
+			margin-top: 1.5em;
+		}
+
+		#project-github-Chillow:hover{
+			color: #227eff;
+		}
+		
+		.project-title-Chillow{
+			text-decoration: none;
+			border-bottom: none;
+		}
+
+		.project-title-Chillow:hover{
+			color: #227eff;
+		}
+
+		#project-github-Retro-Hoops:hover{
+			color: rgb(255, 174, 0);
+		}
+		
+		.project-title-Retro-Hoops{
+			text-decoration: none;
+			border-bottom: none;
+		}
+
+		.project-title-Retro-Hoops:hover{
+			color: rgb(255, 174, 0);
+		}
+
+		#project-github-Shyche:hover{
+			color: #189AB4;;
+		}
+		
+		.project-title-Shyche{
+			text-decoration: none;
+			border-bottom: none;
+		}
+
+		.project-title-Shyche:hover{
+			color: #189AB4;;
+		}
+
+		.project-wrapper{
+			/* border: solid 3px red; */
+			display: flex;
+			flex-wrap: nowrap;
+			justify-content: space-between;
+			align-items: center;
+			flex-direction: column;
+			height: fit-content;
+			width: 11em;
+			margin-right: 1em;
+		}
+
+		.project-info-wrapper{
+			align-self: flex-end;
+			font-size: medium;
+		}
+
+		.project-logo-chillow{
+			height: 8em;
+			width: 8em;
+			background-color: white;
+			border-radius: 17px;
+			transition: all 500ms ;
+		}
+
+		.project-logo-chillow:hover{
+			width: 11em;
+			height: 11em;
+		}
+
+		.project-logo{
+			/* width: 8em; */
+			height: 8em;
+			/* background-color: white;
+			border-radius: 17px; */
+			transition: all 500ms ;
+		}
+
+		.project-logo:hover{
+			width: 11em;
+			height: 11em;
+		}
+
+		.project-logo-retro{
+			/* height: 8em; */
+			height: 9em;
+			transition: all 500ms ;
+		}
+
+		.project-logo-retro:hover{
+			width: 11em;
+			height: 11em;
+		}
+
+		.main-project-wrapper{
+			display: flex;
+			justify-content: space-evenly;
+			width: fit-content;
+		}
+
+		.img-container{
+			height: 8em;
+			width: 8em;
+			background-color: white;
+			border-radius: 17px;
+			transition: all 500ms ;
+		}
+
+		.img-container:hover{
+			width: 11em;
+			height: 11em;
+		}
+
+		#work{
+			width: fit-content;
+		}
+
+
