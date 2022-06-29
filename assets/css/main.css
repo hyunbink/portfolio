@@ -1809,4 +1809,5 @@ input, select, textarea {
 	font-size: large !important;
 	height: min-content;
 	margin: none !important;
+	user-select: none;
 }
