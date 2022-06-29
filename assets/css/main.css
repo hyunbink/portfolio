@@ -1808,6 +1808,5 @@ input, select, textarea {
 #type-writer-text{
 	font-size: large !important;
 	height: min-content;
-	margin: none !important;
 	user-select: none;
 }
