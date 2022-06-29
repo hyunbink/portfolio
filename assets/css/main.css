@@ -1795,3 +1795,18 @@ input, select, textarea {
 		}
 
 
+/* typing animation */
+.type-writer-body{
+	text-align: center;
+	align-self: center;
+	display: flex;
+	justify-content: center;
+	height: 2em;
+
+}
+
+#type-writer-text{
+	font-size: large !important;
+	height: min-content;
+	margin: none !important;
+}
