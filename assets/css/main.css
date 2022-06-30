@@ -698,6 +698,7 @@ input, select, textarea {
 			display: block;
 			margin: 2.5rem 0;
 			width: 100%;
+			align-self: center;
 		}
 
 			.image.main img {
@@ -1783,6 +1784,28 @@ input, select, textarea {
 
 		#work{
 			width: fit-content;
+		}
+
+		#profile-img{
+			/* height: 50vh; */
+			/* width: 50%;
+			align-self: center; */
+		}
+
+		@media screen and (max-width: 590px) {
+			.main-project-wrapper{
+				display: flex;
+				justify-content: space-evenly;
+				width: fit-content;
+				flex-direction: column;
+			}
+			.project-wrapper{
+				flex-direction: row;
+				width: 100%;
+			}
+			.project-info-bio{
+				margin-left: 1.5em;
+			}
 		}
 
 
