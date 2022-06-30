@@ -1808,6 +1808,41 @@ input, select, textarea {
 			}
 		}
 
+		/* skills/about*/
+		.skills-list {
+			display: flex;
+			flex-wrap: wrap;
+			list-style-type: none;
+		}
+		.skill-icon {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+	
+		.skill-icon i{
+			display: inline-block;
+			font-size: 100px;
+			padding: 10px;
+		}
+	
+	
+		.skill-img {
+			display: inline-block;
+			width: 120px;
+			position: relative;
+			padding: 10px;
+			/* padding-bottom: 0px; */
+		}
+
+		.space-after-pin {
+			padding-right: 12px;
+		}
+	
+		.space-after-pdf {
+			padding-right: 8px;
+		}
+
 
 
 /* typing animation */
