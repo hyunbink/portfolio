@@ -1748,10 +1748,10 @@ input, select, textarea {
 		}
 
 		.project-logo{
-			/* width: 8em; */
+			width: 8em;
 			height: 8em;
-			/* background-color: white;
-			border-radius: 17px; */
+			background-color: white;
+			border-radius: 17px;
 			transition: all 500ms ;
 		}
 
@@ -1762,7 +1762,11 @@ input, select, textarea {
 
 		.project-logo-retro{
 			/* height: 8em; */
-			height: 9em;
+			height: 8em;
+			transition: all 500ms ;
+			width: 8em;
+			background-color: white;
+			border-radius: 17px;
 			transition: all 500ms ;
 		}
 
@@ -1775,19 +1779,6 @@ input, select, textarea {
 			display: flex;
 			justify-content: space-evenly;
 			width: fit-content;
-		}
-
-		.img-container{
-			height: 8em;
-			width: 8em;
-			background-color: white;
-			border-radius: 17px;
-			transition: all 500ms ;
-		}
-
-		.img-container:hover{
-			width: 11em;
-			height: 11em;
 		}
 
 		#work{
