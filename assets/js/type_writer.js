@@ -1,6 +1,6 @@
 // typing animation
 const textDisplay = document.getElementById("type-writer-text");
-const phrases = ["Software Engineer", "Dog Lover", "Sports Fanatic", "Loungewear Fasionista", "Eagle Scout"]; 
+const phrases = ["Software Engineer", "Dog Lover", "Sports Fanatic", "Loungewear Fashionista", "Eagle Scout"]; 
 let i = 0;
 let j = 0;
 let currentPhrase = [];
