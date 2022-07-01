@@ -1843,6 +1843,10 @@ input, select, textarea {
 			padding-right: 8px;
 		}
 
+		#about-intro{
+			margin: 0 0 1rem 0;
+		}
+
 
 
 /* typing animation */
